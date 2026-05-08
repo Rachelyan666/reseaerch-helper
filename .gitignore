@@ -1,0 +1,26 @@
+# Local secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated runtime output
+notes/
+.tasks/
+.schedules/
+.team/
+.worktrees/
+.memory/
+
+# OS / editor noise
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
