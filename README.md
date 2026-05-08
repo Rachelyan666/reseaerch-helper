@@ -285,20 +285,3 @@ Use demo mode first:
 ```bash
 research-agent demo "Figma competitors"
 ```
-
-## Suggested next GitHub improvements
-
-These are the highest-value next steps for making the repo even easier for others:
-
-1. **Add a LICENSE file** so people know how they can use the code.
-2. **Add GitHub Actions CI** to run `pytest -q` on every push.
-3. **Add a sample output note** under `examples/` so visitors can see expected results instantly.
-4. **Add screenshots or terminal GIFs** for the README.
-5. **Publish a first tagged release** once the CLI shape feels stable.
-
-## Current scope
-
-This package currently includes the tutorial-style runtime through s19:
-- s01-s11 core loop, tools, compaction, permissions, hooks, memory, prompt assembly, recovery
-- s12-s14 durable tasks, background work, scheduling
-- s15-s19 persistent teammates, protocols, bounded autonomy, worktree lanes, and plugin tool routing
