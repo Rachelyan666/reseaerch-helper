@@ -29,7 +29,7 @@ This repo is designed so someone can clone it, install it, and get a result quic
 ### 1) Clone and install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Rachelyan666/reseaerch-helper.git
 cd research-agent
 python3 -m venv .venv
 source .venv/bin/activate
